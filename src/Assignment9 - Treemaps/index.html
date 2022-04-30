@@ -1,0 +1,61 @@
+<!--
+	Name:		Julian Aguirre
+	Class:		CSC 444
+	File:		index.html
+	Date:		3/31/2021
+	
+	CSC 444 Assignment 9: Treemaps
+-->
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+	<title>Treemaps</title>
+	<meta charset='UTF-8'/>
+	<link rel='stylesheet' href='style.css'>
+	<script src='d3.js'></script>
+	<script src='flare.js'></script>
+	<script src='test-cases.js'></script>
+	<script src='a09.js' defer></script>
+</head>
+
+<body style='padding: 0; margin: 0'>
+	<!-- This SVG contains the treemap chart -->
+	<svg id='svg'></svg>
+	
+	<!-- This div contains the buttons for the functionality of the chart -->
+	<div style='position: absolute; right: 1em; top: 1em'>
+		<button id='size'>Size</button>
+		<button id='count'>Count</button>
+		<button id='best-size'>Best Size</button>
+		<button id='best-count'>Best Count</button>
+	</div>
+	
+	<!-- This div contains the table to display the tool tip when the user clicks a rectangle-->
+	<div id='tool-tip'>
+		<div id='table' style='float: left'>
+			<table>
+				<tr>
+					<td class='tip-label'>&nbsp;&nbsp;&nbsp;Title: </td>
+					<td class='tip-value' id='tip-title'></td>
+				</tr>
+				<tr>
+					<td class='tip-label'>Depth: </td>
+					<td class='tip-value' id='tip-depth'></td>
+				</tr>
+				<tr>
+					<td class='tip-label'>&nbsp;&nbsp;&nbsp;Size: </td>
+					<td class='tip-value' id='tip-size'></td>
+				</tr>
+				<tr class='tip-optional'>
+					<td class='tip-label'>Count: </td>
+					<td class='tip-value' id='tip-count'></td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	
+	
+</body>
+</html>
+  

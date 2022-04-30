@@ -1,0 +1,45 @@
+/*
+ * Name:	Julian Aguirre
+ * Class:	CSC 444
+ * File:	style.css
+ * Date:	2/24/2021
+ */
+svg {
+	width: 500px;
+	height: 500px;
+	/*border: 1px solid black;*/
+}
+
+circle {
+	stroke: black;
+}
+
+/* Responsible for the axis line */
+.axis path, .axis line {
+	fill: none;
+	stroke: black;
+	shape-rendering: crispEdges;
+}
+
+/* Responsible for the text next to the axis line */
+.axis text {
+	font-family: Verdana, sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	fill: black;
+	text-anchor: end;
+}
+
+/* Responsible for the text next to the ticks */
+svg .tick > text {
+	font-family: Optima, Futura, sans-serif;
+	font-weight: normal;
+	font-size: 10px;
+	fill: black;
+}
+
+/* Centers x-axis tick's text */
+#x_axis .tick > text {
+	transform: translate(10px,0px);
+}
+

@@ -1,0 +1,62 @@
+<!--
+	Name:		Julian Aguirre
+	Class:		CSC 444
+	File:		index.html
+	Date:		3/15/2021
+	
+	CSC 444 Assignment 7: Linked Views, Brushing
+-->
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <title>Linked Views, Brushing</title>
+	<meta charset='UTF-8'/>
+	<link rel='stylesheet' href='style.css'>
+	<script src='d3.js'></script>
+	<script src='iris.js'></script>
+	<script src='a07.js' defer></script>
+</head>
+<body>
+	<!--
+		This div contains the scatterplot for the first view that has the label 'Sepal Length' for
+		the x-axis and the label 'Sepal Width' for the y-axis.
+	-->
+	<div id='scatterplot_1' style='float: left'></div>
+	
+	<!--
+		This div contains the scatterplot for the second view that has the label 'Petal Length' for
+		the x-axis and the label 'Petal Width' for the y-axis.
+	-->
+	<div id='scatterplot_2' style='float: left'></div>
+	
+	<!--
+		This div contains the table of the flower values and their labels.
+	-->
+	<div id='table' style='float: left'>
+		<table>
+			<tr>
+				<td>Sepal Length:</td>
+				<td id='table-sepalLength'></td>
+			</tr>
+			<tr>
+				<td>Sepal Width:</td>
+				<td id='table-sepalWidth'></td>
+			</tr>
+			<tr>
+				<td>Petal Length:</td>
+				<td id='table-petalLength'></td>
+			</tr>
+			<tr>
+				<td>Petal Width:</td>
+				<td id='table-petalWidth'></td>
+			</tr>
+			<tr>
+				<td>Species:</td>
+				<td id='table-species'></td>
+			</tr>
+		</table>
+	</div>
+	
+	<div style='clear: both'></div>
+</body>
+</html>

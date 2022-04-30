@@ -1,0 +1,39 @@
+<!--
+	Name:		Julian Aguirre
+	Class:		CSC 444
+	File:		index.html
+	Date:		4/19/2021
+	
+	CSC 444 Assignment 11: Transfer Functions
+-->
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<title>Transfer Functions</title>
+	<meta charset='UTF-8'/>
+	<link rel='stylesheet' href='style.css'>
+	<script src='d3.js'></script>
+	<script src='vtk.js'></script>
+	<script src='volren.js'></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.min.js"></script>
+	<script src='a11.js' defer></script>
+</head>
+<body>
+	<div>
+		<input type='file' id='loadData'>
+		<button id='sequential'>Sequential</button>
+		<button id='divergent'>Divergent</button>
+		<button id='categorical'>Categorical</button>
+	</div>
+	
+	<div>
+		<!-- This div contains the volume renderer -->
+		<div id='volren'></div>
+		
+		<!-- This div contains the transfer function editor. It modifies and visualizes the contents
+			of two variables: 'colorTF' and 'opacityTF'. -->
+		<div id='tfunc'></div>
+	</div>
+
+</body>
+</html>

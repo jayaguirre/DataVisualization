@@ -1,0 +1,18 @@
+/*
+ * Name:	Julian Aguirre
+ * Class:	CSC 444
+ * File:	style.css
+ * Date:	2/15/202
+ */
+SVG {
+	/*border: 1px solid black;*/
+}
+
+#scatterplot_2 circle {
+	stroke: black;
+	stroke-width: 1px;
+}
+
+#chart1, #chart2, #chart3 {
+	background-color: #fee
+}

@@ -1,0 +1,28 @@
+/*
+ * Name:	Julian Aguirre
+ * Course:	CSC 444
+ * File:	style.css
+ * Date:	2/8/202
+ */
+circle {
+	stroke: transparent;
+}
+
+line {
+	stroke: black;
+}
+
+/* The styling for the axis names */
+.axis_text {
+	font-size:   16px;
+	font-weight: bold;
+}
+
+/* The styling for the number values next to the tick marks */
+.tick_text {
+	font-size: 8px;
+}
+
+#scatterplot_2b circle {
+	stroke: black;
+}

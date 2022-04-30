@@ -1,0 +1,18 @@
+/*
+ * Name:	Julian Aguirre
+ * Class:	CSC 444
+ * File:	style.css
+ * Date:	4/28/2021
+ */
+svg {
+	/*border: 1px solid black;*/
+}
+
+line {
+	stroke: black;
+	stroke-width: 1px;
+}
+
+path {
+	stroke-width: 1px;
+}

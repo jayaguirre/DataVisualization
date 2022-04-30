@@ -1,0 +1,60 @@
+<!--
+	Name:		Julian Aguirre
+	Class:		CSC 444
+	File:		index.html
+	Date:		3/3/2021
+	
+	CSC 444 Assignment 6: Color Spaces
+-->
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<title>Color Spaces</title>
+	<meta charset='UTF-8'/>
+	<link rel='stylesheet' href='style.css'>
+	<script src='d3.js'></script>
+	<script src='data.js'></script>
+	<script src='a06.js' defer></script>
+</head>
+<body>
+	<!--
+		This div contains the color scale for temperature where the minimum value is the color
+		orange and the maximum color is blue.
+	-->
+	<h1>Temperature (Any) colormap</h1>
+	<div>
+		<span id='plot1-temperature'></span>
+		<span id='colorlegend-1' class='colorlegend'></span>
+	</div>
+	
+	<!--
+		This div contains the color scale for temperature where the minimum value is the color
+		steelblue and the maximum color is brown. This scale is perceptually uniform.
+	-->
+	<h1>Temperature (Perceptually Uniform) colormap</h1>
+	<div>
+		<span id='plot2-temperature'></span>
+		<span id='colorlegend-2' class='colorlegend'></span>
+	</div>
+	
+	<!--
+		This div contains the color scale for pressure where the minimum value is the color
+		blue, the mid point value is the color yellow-ish, and the maximum color is red.
+	-->
+	<h1>Pressure colormap</h1>
+	<div>
+		<span id='plot3-pressure'></span>
+		<span id='colorlegend-3' class='colorlegend'></span>
+	</div>
+	
+	<!--
+		This div contains the color scale for the bivariate color map.
+	-->
+	<h1>Bivariate colormap</h1>
+	<div>
+		<span id='plot4-bivariate'></span>
+		<span id='colorlegend-4' class='colorlegend'></span>
+	</div>
+	
+</body>
+</html>

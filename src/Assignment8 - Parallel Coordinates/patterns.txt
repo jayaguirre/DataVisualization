@@ -1,0 +1,13 @@
+
+
+
+  [sepalLength, sepalWidth, petalLength, petalWidth]	SL	SW	PL	PW
+
+1. [sepalWidth, sepalLength, petalLength, petalWidth]  	1	0	2	3
+2. [sepalWidth, sepalLength, petalLength, petalWidth]	1	0	2	3
+3. [petalLength, sepalWidth, sepalLength, petalWidth]	2	1	0	3
+4. [sepalWidth, sepalLength, petalLength, petalWidth]	1	0	2	3
+5. [sepalLength, sepalWidth, petalWidth, petalLength]	0	1	3	2
+6. [sepalLength, petalWidth, petalLength, sepalWidth]	0	3	2	1
+7. [petalWidth, sepalWidth, petalLength, sepalLength]	3	1	2	0
+8. [sepalLength, petalWidth, petalLength, sepalWidth]	0	3	2	1

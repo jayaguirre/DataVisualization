@@ -1,0 +1,48 @@
+<!--
+Name:		Julian Aguirre
+Class:		CSC 444
+File:		index.html
+Date:		2/8/2021
+-->
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<meta charset='UTF-8'>
+	<title>Assignment 3 Javascript</title>
+	<link rel='stylesheet' href='style.css'>
+	<script src='scores.js'></script>
+	<script src='svg.js'></script>
+	<script src='a03.js' defer></script>
+</head>
+<body>
+	<!--
+		Visualization 1: Scatterplot of circles, showing SAT's verbal scores versus SAT's
+		mathematics scores
+	-->
+	<div id='chart_1'></div>
+	
+	<!--
+		Visualization 2: Scatterplot of circles where GPA scores are on the x-axis, ACT scores are
+		on the y-axis, the radius of the circles represent SATV scores, and the color represents
+		SATM scores.
+	 -->
+	<div id='chart_2'></div>
+	
+	<!--
+		Visualization 3: Scatterplot of circles where the sum of the SAT scores specifies the
+		x-coordinate, GPA scores are on the y-axis, the radius of the circles is fixed, and the
+		color of the circles represents the ACT scores.
+	 -->
+	<div id='chart_3'></div>
+	
+	<!--
+		Extra Credit Visualization: For this improved visualization of chart 2, I decided to go with
+		the use of opacity to improve the clarity. In the chart when there are stacked circles there
+		is no way to tell if a circle is beneath another one. I set the opacity of the circle fill
+		to 0.4 and the circle stroke color to black (from transparent). With these changes you can
+		now tell with more ease whether or not there is a circle underneath any given circle.
+	-->
+	<div id='chart_2b'></div>
+	
+</body>
+</html>

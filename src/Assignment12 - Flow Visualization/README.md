@@ -59,32 +59,5 @@ For part 4, you will correct the visual artifacts caused by uniformly placing gl
 * `data.js` - File that contains the data to display.
 * `d3.js` - D3 file.
 
-
-## References
-I used this source when rotating and translating SVG elements: https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/transform
-
-I used this source when calculating the angle arrows point: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/atan2
-
-
-
-## Grading
-### Deductions
-| Reason 				| Value 										|
-| :---					|    :----										|
-| Bugs or syntax errors | -10 each bug at grader's discretion to fix    |
-
-### Point Breakdown of Features
-| Requirement | Value |
-| :--- | :----: |
-| Consistent modular coding style | 5 |
-| External documentation following the template | 5 |
-| Header documentation, Internal documentation. Wherever applicable for all files | 10 |
-| Encoding the vector field magnitude with color in Part 1 | 15 |
-| Encoding the vector field direction with lines in Part 2 | 25 |
-| Encoding the vector field magnitude and direction with arrows in Part 3 | 25 |
-| Encoding the vector field with a jittered glyph of your choice in Part 4 | 15 |
-| Total | 100 |
-
-
 ## How To Run
 This program does not need any special parameters to run. It should run when the `index.html` file is loaded in the browser.

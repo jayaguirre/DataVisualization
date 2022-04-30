@@ -47,28 +47,5 @@ The *order* in which filled contours are draw is important. The `generateFilledC
 * `a10.js` - File that contains the functionality of web page.
 * `d3.js` - D3 file.
 
-## References
-I used this source when figuring out how to create the polygon lines: https://github.com/d3/d3-shape#lines.
-
-## Grading
-### Deductions
-| Reason 				| Value 										|
-| :---					|    :----										|
-| Bugs or syntax errors | -10 each bug at grader's discretion to fix    |
-
-### Point Breakdown of Features
-| Requirement | Value |
-| :--- | :----: |
-| Consistent modular coding style | 5 |
-| External documentation following the template | 5 |
-| Header documentation, Internal documentation. Wherever applicable for all files | 10 |
-| Correctly implementing the case table for Part 1 | 20 |
-| Correctly interpolating positions for each case table for Part 1 | 15 |
-| Correctly selecting which cells to draw in Part 2 with `includesFilledContour()` | 10 |
-| Correctly implementing the case table for Part 2 | 20 |
-| Correctly interpolating positions for each case table for Part 1 | 15 |
-| Total | 100 |
-
-
 ## How To Run
 This program does not need any special parameters to run. It should run when the `index.html` file is loaded in the browser.

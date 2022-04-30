@@ -42,10 +42,6 @@ The function `colorP3()` is implemented to produce a visualization of the pressu
 ### Part 3: Bivariate Color Maps
 The function `colorPT4()` is implemented with a bivariate color map that portrays both temperature and pressure in the fourth plot. The color map maps values of zero pressure to neutral colors, and values of nonzero pressure should be opponent to each other. Map temperature however necessary, such that as temperature changes, the colors change perceptually uniformly.
 
-### Extra Credit
-#### Implement Color Legends (up to 40%)
-Color legends should show the range of shown values for each of plots, and should include tick marks and text labels for some values.
-
 ## Included files
 
 * `README.md` - This file.
@@ -54,29 +50,6 @@ Color legends should show the range of shown values for each of plots, and shoul
 * `a06.js` - File that contains the functionality of web page.
 * `data.js` - File that contains the data for the weather data.
 * `d3.js` - D3 file.
-
-
-## References
-I used this source when I was reading up on bivariate color maps: https://www.joshuastevens.net/cartography/make-a-bivariate-choropleth-map/
-
-## Grading
-### Deductions
-| Reason 				| Value 										|
-| :---					|    :----										|
-| Bugs or syntax errors | -10 each bug at grader's discretion to fix    |
-
-### Point Breakdown of Features
-| Requirement | Value |
-| :--- | :----: |
-| Consistent modular coding style | 5 |
-| External documentation following the template | 5 |
-| Header documentation, Internal documentation. Wherever applicable for all files | 10 |
-| Implementing temperature color map, colorT1 | 20 |
-| Modifying colorT1 to produce a perceptually uniform colorT2 | 15 |
-| Implementing the diverging color map for pressure, colorP3 | 20 |
-| Implementing the bivariate color map, colorPT4, to visualize pressure and temperature | 25 |
-| Total | 100 |
-
 
 ## How To Run
 This program does not need any special parameters to run. It should run when the `index.html` file is loaded in the browser.

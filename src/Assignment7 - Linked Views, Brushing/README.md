@@ -55,29 +55,5 @@ Using the selection objects, `onBrush()` creates a filter function, `isSelected(
 * `iris.js` - File that contains the data for the flowers.
 * `d3.js` - D3 file.
 
-
-## References
-I used this sources when creating the brushes: https://github.com/d3/d3-brush
-I used this source to understand events in d3: https://observablehq.com/@d3/d3v6-migration-guide#events
-
-## Grading
-### Deductions
-| Reason 				| Value 										|
-| :---					|    :----										|
-| Bugs or syntax errors | -10 each bug at grader's discretion to fix    |
-
-### Point Breakdown of Features
-| Requirement | Value |
-| :--- | :----: |
-| Consistent modular coding style | 5 |
-| External documentation following the template | 5 |
-| Header documentation, Internal documentation. Wherever applicable for all files | 10 |
-| Implementing the two scatterplots, with appropriate visual encoding for positions and fill colors, axes, and labels | 20 |
-| Implementing highlighting between plots by enlarging the radius of the selected data element in both plots | 15 |
-| Correctly implementing the onBrush function so that the points returned by isSelected are highlighted, and all other points are colored by their species | 15 |
-| Correctly implementing the logic for the isSelected function so that it returns true for selected points and takes the logical and of both brushes | 15 |
-| Total | 100 |
-
-
 ## How To Run
 This program does not need any special parameters to run. It should run when the `index.html` file is loaded in the browser.

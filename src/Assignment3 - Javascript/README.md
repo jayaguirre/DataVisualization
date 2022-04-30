@@ -34,16 +34,6 @@ The third is a scatterplot where:
 - radius is fixed
 - color represents `ACT`
 
-### Extra Credit
-#### Improve and Justify Visualization 2 (up to 10%)
-The goal for the final visualization is to improve upon Visualization 2.
-
-There are two paragraphs of text describing the changes and reasoning and is embedded in the submitted HTML. The improved visualization is an element with id attribute equal to `scatterplot_2b`.
-
-#### Axis Annotations (up to 40%)
-Axis lines are added, as well as labels and tick marks to the `x` and `y` axes of the visualizations.
-
-The scale of the axis is incorrect so the data points will appear to have the wrong coordinates but that is because of the misalignment of the ticks.
 ## Included files
 
 * `README.md` - This file
@@ -52,33 +42,6 @@ The scale of the axis is incorrect so the data points will appear to have the wr
 * `svg.js` - File that contains functions used to create and populate SVGs.
 * `a03.js` - File that contains the functionality of web page.
 * `scores.js` - File that contains all the data points for the grades.
-
-## References
-
-I used this source to learn about manipulating the DOM: https://cscheid.net/courses/fall-2019/csc444/lectures/lecture4.html
-
-## Grading
-### Deductions
-| Reason 				| Value 										|
-| :---					|    :----										|
-| Bugs or syntax errors | -10 each bug at grader's discretion to fix    |
-
-### Point Breakdown of Features
-| Requirement | Value 		|
-| :---						|    :----:			|
-| Consistent modular coding style | 5 |
-| External documentation (README.md) following the template provided in the base repository | 5 |
-| Header documentation, Internal documentation. Wherever applicable for all files | 10 |
-| (Visualization 1) Correct positioning of each data point | 20 |
-| (Visualization 2) Correct positioning of each data point | 15 |
-| (Visualization 2) Correctly mapping the radii of each data point | 10 |
-| (Visualization 2) Correct mapping data to color | 10 |
-| (Visualization 3) Correct positioning of each data point | 15 |
-| (Visualization 3) Correct mapping data to color | 10 |
-| Total | 100 |
-
-
-
 
 ## How To Run
 This program does not need any special parameters to run. It should run when the

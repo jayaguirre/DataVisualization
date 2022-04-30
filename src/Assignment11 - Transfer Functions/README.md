@@ -59,10 +59,6 @@ When editing the curve, you must handle two special cases. First, if the point b
 When moving points, I also changed their fill color to represent the color specified by `colorScale`. This isn't required, but I found it added some context to which opacity values were mapped to which colors.
 
 
-### Extra Credit
-Instead of using buttons to specify the color transfer function, you are welcome to consider a more sophisticated interface when the user can design a color transfer function. Depending on the sophistication level, this is worth as much as 50% extra credit. If you choose to implement such an interface, you need not support the button-based selection, provided they support designing `colorTF`'s which are equally or more sophisticated.
-
-
 ## Included files
 
 * `README.md` - This file.
@@ -72,33 +68,6 @@ Instead of using buttons to specify the color transfer function, you are welcome
 * `volren.js` - File that contains the data for the flowers.
 * `vtk.js` - File that contains the data for the flowers.
 * `d3.js` - D3 file.
-
-
-## References
-I used this source when creating d3 lines: https://github.com/d3/d3-shape/blob/master/README.md#lines
-
-## Grading
-### Deductions
-| Reason 				| Value 										|
-| :---					|    :----										|
-| Bugs or syntax errors | -10 each bug at grader's discretion to fix    |
-
-### Point Breakdown of Features
-| Requirement | Value |
-| :--- | :----: |
-| Consistent modular coding style | 5 |
-| External documentation following the template | 5 |
-| Header documentation, Internal documentation. Wherever applicable for all files | 10 |
-| Implementing a sequential color transfer function | 5 |
-| Implementing a diverging color transfer function | 5 |
-| Implementing a categorical color transfer function | 5 |
-| Allowing the user to switch between color transfer functions with buttons | 10 |
-| Visualizing the color transfer function with a color bar | 10 |
-| Using a curve to specify the opacity transfer function | 15 |
-| Implementing dragging to update the opacity transfer function | 15 |
-| Correctly visualizing all contextual elements (axes, scales, etc.) | 15 |
-| Total | 100 |
-
 
 ## How To Run
 This program does not need any special parameters to run. It should run when the `index.html` file is loaded in the browser.

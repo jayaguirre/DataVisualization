@@ -88,15 +88,6 @@ Your `isSelected()` function should check all dimensions, and for an input data 
 
 All selected elements should be set to have an opacity of 0.75, whereas elements that are not selected should have an opacity of 0.1. If no brushes are enabled, then all elements should have opacity of 0.75.
 
-
-### Extra Credit
-Notably, you may want to consider interactions that include:
-- Inverting axes (e.g. switching their minimum and maximum)
-- Using a drag-and-drop interface to reorder the axes instead of clicking to swap
-- Augmenting the visual interface to show other statistical information per axis
-- Generally improving upon the visual look-and-feel of parallel coordinates. You may find inspiration from [Kai Chang's Parallel Coordinates](https://syntagmatic.github.io/parallel-coordinates/) and [Parallel Coordinates on Observable](https://observablehq.com/@d3/parallel-coordinates) as some examples of how to customize parallel coordinates further. If you find other examples from the web, be sure to appropriate reference them in your README.
-
-
 ## Included files
 
 * `README.md` - This file.
@@ -105,29 +96,6 @@ Notably, you may want to consider interactions that include:
 * `a08.js` - File that contains the functionality of web page.
 * `iris.js` - File that contains the data for the flowers.
 * `d3.js` - D3 file.
-
-
-## References
-I used this source when creating d3 lines: https://github.com/d3/d3-shape/blob/master/README.md#lines
-
-## Grading
-### Deductions
-| Reason 				| Value 										|
-| :---					|    :----										|
-| Bugs or syntax errors | -10 each bug at grader's discretion to fix    |
-
-### Point Breakdown of Features
-| Requirement | Value |
-| :--- | :----: |
-| Consistent modular coding style | 5 |
-| External documentation following the template | 5 |
-| Header documentation, Internal documentation. Wherever applicable for all files | 10 |
-| Implementing the data drawing discussed in Part 1 | 20 |
-| Properly adding groups for the axes, labels, and brushes in Part 2 | 20 |
-| Implementing the swap interaction. For full credit, your swap should also swap any enabled brushes and include transitions | 20 |
-| Correctly selecting data and updating its opacity using brushes | 20 |
-| Total | 100 |
-
 
 ## How To Run
 This program does not need any special parameters to run. It should run when the `index.html` file is loaded in the browser.

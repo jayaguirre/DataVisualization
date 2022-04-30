@@ -70,12 +70,6 @@ D3 axis annotations will be added to the same scatterplot, by using the objects 
 ### Part 3: Animation
 When changing the circle colors, the animation transition will have a duration of 1.5 seconds, using **d3 transitions** in response to the button presses.
 
-### Extra Credit
-#### Position Transitions (up to 10%)
-Add two buttons to the webpage that will toggle the *x*-coordinate of your circles, alternating between `SATV` (the value you started with above) and the cumulative score, `SATM + SATV`. The button to choose `SATV` values should have id `SATV`, and the button for the cumulative score should have id `SAT-cumulative`.
-
-For full credit, this transition should be animated. In addition, the axes and tick marks will need to be animated as well!
-
 ## Included files
 
 * `README.md` - This file.
@@ -85,32 +79,6 @@ For full credit, this transition should be animated. In addition, the axes and t
 * `calvinScores.js` - File that contains the data for the scores.
 * `buttons.js` - File that contains the button functionality.
 * `d3.js` - D3 file.
-
-
-## References
-I used this source when I was working with scales: https://cscheid.net/projects/d3-scale-playground/  
-I used this source when dealing with axis: https://jesperkiledal.com/blog/d3-axis-tips-and-tricks/
-
-## Grading
-### Deductions
-| Reason 				| Value 										|
-| :---					|    :----										|
-| Bugs or syntax errors | -10 each bug at grader's discretion to fix    |
-
-### Point Breakdown of Features
-| Requirement | Value 		|
-| :---						|    :----:			|
-| Consistent modular coding style | 5 |
-| External documentation following the template | 5 |
-| Header documentation, Internal documentation. Wherever applicable for all files | 10 |
-| Using d3 scales to create the circle positions | 15 |
-| Using d3 sqrt scales to create the circle radii | 15 |
-| Using d3 color scales for the circle colors (10 points each) | 30 |
-| Creating axis for the visualization | 10 |
-| Using buttons to switch between color scales | 5 |
-| Animating transitions | 5 |
-| Total | 100 |
-
 
 ## How To Run
 This program does not need any special parameters to run. It should run when the `index.html` file is loaded in the browser.

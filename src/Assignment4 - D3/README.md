@@ -32,26 +32,6 @@ There `id` attributes of the four divs in the HTML file are `vis1`, `vis2`,  `vi
 * `d3.js` - D3 file.
 
 
-## References
-I used this source when reviewing the joins I was making: https://bost.ocks.org/mike/join/
-
-## Grading
-### Deductions
-| Reason 				| Value 										|
-| :---					|    :----										|
-| Bugs or syntax errors | -10 each bug at grader's discretion to fix    |
-
-### Point Breakdown of Features
-| Requirement | Value 		|
-| :---						|    :----:			|
-| Consistent modular coding style | 5 |
-| External documentation following template provided | 5 |
-| Header documentation, Internal documentation. | 10 |
-| Matching the original visual style for each chart (x4) | 10 |
-| Correct utilization of d3's join for each chart (x4) | 10 |
-| Total | 100 |
-
-
 ## How To Run
 This program does not need any special parameters to run. It should run when the
 `index.html` file is loaded in the browser.

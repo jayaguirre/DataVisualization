@@ -42,9 +42,6 @@ The basic treemapping algorithm chooses a fixed direction for every tree node ba
 
 The two buttons with ids `best-size` and `best-count` will transition the rectangles to a layout using this 'Best Direction'.
 
-### Extra Credit Squarified Treemaps (up to 40%)
-Many of these layouts cause relatively uneven shapes and make it hard to read areas. The squarified treemap tries to solve this deficiency by making nodes that are as close as possible to being square. See this paper by Bruls, Huizing, and van Wijk for a description of the algorithm squarified treemaps. For this version, add 2 more buttons with ids, respectively, `square-size` and `square-count` to switch the layouts to the squarified size layout and squarified count layout.
-
 ## Included files
 
 * `README.md` - This file.
@@ -54,31 +51,6 @@ Many of these layouts cause relatively uneven shapes and make it hard to read ar
 * `flare.js` - File that contains the data to display.
 * `test-cases.js` - File that contains the test cases for the treemap.
 * `d3.js` - D3 file.
-
-
-## References
-I used this sources when creating the treemaps: https://www.cs.umd.edu/users/ben/papers/Shneiderman1992Tree.pdf
-
-## Grading
-### Deductions
-| Reason 				| Value 										|
-| :---					|    :----										|
-| Bugs or syntax errors | -10 each bug at grader's discretion to fix    |
-
-### Point Breakdown of Features
-| Requirement | Value |
-| :--- | :----: |
-| Consistent modular coding style | 5 |
-| External documentation following the template | 5 |
-| Header documentation, Internal documentation. Wherever applicable for all files | 10 |
-| Correctly computing tree node depth for Part 1 | 10 |
-| Correctly computing rects within setRectangle() for Part 1 | 20 |
-| Correctly setting the rectangle attributes (x,y,width,height) in setAttr() for Part 1 | 10 |
-| Correctly shrinking the rectangles with margins for Part 2 | 15 |
-| Correctly setting the fill color based on depth for Part 2 | 10 |
-| Correctly implementing the best direction cutting approach for Part 3 | 15 |
-| Total | 100 |
-
 
 ## How To Run
 This program does not need any special parameters to run. It should run when the `index.html` file is loaded in the browser.
